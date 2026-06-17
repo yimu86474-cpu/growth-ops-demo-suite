@@ -17,20 +17,26 @@
       "requires_runtime_explain": false
     },
     {
-      "id": "run_content_research_demo",
+      "id": "run_content_chain_demo",
       "type": "script",
       "source_files": [
-        "02-ai-content-research-workbench/demo/run_content_research_demo.py"
+        "02-third-party-content-remix-pipeline/demo/run_content_chain_demo.py"
       ],
-      "explain_doc": "docs/explain/run_content_research_demo.md",
+      "explain_doc": "docs/explain/run_content_chain_demo.md",
       "verify_commands": [
-        "python 02-ai-content-research-workbench/demo/run_content_research_demo.py"
+        "python 02-third-party-content-remix-pipeline/demo/run_content_chain_demo.py"
       ],
       "runtime_outputs": [
-        "02-ai-content-research-workbench/demo/sample-report/content-research-report.md",
-        "02-ai-content-research-workbench/demo/sample-report/topic-pool.csv",
-        "02-ai-content-research-workbench/demo/sample-report/creation-brief.md",
-        "02-ai-content-research-workbench/demo/sample-report/publish-package.md"
+        "02-third-party-content-remix-pipeline/demo/sample-output/chain-report.md",
+        "02-third-party-content-remix-pipeline/demo/sample-output/capture-candidates-report.md",
+        "02-third-party-content-remix-pipeline/demo/sample-output/manual-workbench/01-samples/demo-ai-workflow.source-card.md",
+        "02-third-party-content-remix-pipeline/demo/sample-output/manual-workbench/02-transcripts/demo-ai-workflow.clean-transcript.md",
+        "02-third-party-content-remix-pipeline/demo/sample-output/manual-workbench/03-decomposition/demo-ai-workflow.director-decomposition.md",
+        "02-third-party-content-remix-pipeline/demo/sample-output/manual-workbench/04-quality-review/demo-ai-workflow.decomposition-review.md",
+        "02-third-party-content-remix-pipeline/demo/sample-output/manual-workbench/09-reuse-library/demo-ai-workflow.reuse-assets.md",
+        "02-third-party-content-remix-pipeline/demo/sample-output/knowledge-base-sync-plan.md",
+        "02-third-party-content-remix-pipeline/demo/sample-output/rewrite-brief.md",
+        "02-third-party-content-remix-pipeline/demo/sample-output/script-package.md"
       ],
       "requires_runtime_explain": false
     },

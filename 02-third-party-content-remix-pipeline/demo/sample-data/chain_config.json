@@ -1,0 +1,11 @@
+{
+  "candidate_score_weights": {
+    "audience_fit": 0.3,
+    "structure_fit": 0.3,
+    "evidence_fit": 0.2,
+    "rewrite_value": 0.2
+  },
+  "quality_gates": {
+    "deep_decompose_min_score": 4.0
+  }
+}

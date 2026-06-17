@@ -11,7 +11,7 @@
 | Demo | 证明能力 | 当前状态 |
 |---|---|---|
 | [B站投放巡查系统 Demo](01-bilibili-ad-inspection-demo/README.md) | 业务指标拆解、创意级规则引擎、预警策略、运营通知、人工复核边界 | 已有 synthetic 数据和可运行 demo |
-| [AI 内容需求研究工作台](02-ai-content-research-workbench/README.md) | 样本准入、需求洞察、选题评分、创作 brief、发布包草稿 | 已有 synthetic 数据和可运行 demo |
+| [第三方内容对标改写全链路 Demo](02-third-party-content-remix-pipeline/README.md) | 第三方内容候选、转写、样本准入、编导拆解、资产沉淀、知识库同步计划、原创改写 | 已有 synthetic 数据和可运行 demo |
 | [微信事件流 dry-run Demo](03-automation-event-pipeline/README.md) | relay、watcher、bubble 合并、意图路由、任务队列、发送守卫 | 已有 synthetic 消息和可运行 demo |
 
 ## 推荐查看顺序
@@ -19,7 +19,7 @@
 1. 先看主 demo：[B站投放巡查系统 Demo](01-bilibili-ad-inspection-demo/README.md)。
 2. 再看产品案例：[docs/product-case.md](01-bilibili-ad-inspection-demo/docs/product-case.md)。
 3. 运行投放巡查 demo：`python 01-bilibili-ad-inspection-demo/demo/run_inspection_demo.py`。
-4. 运行内容研究 demo：`python 02-ai-content-research-workbench/demo/run_content_research_demo.py`。
+4. 运行内容对标改写 demo：`python 02-third-party-content-remix-pipeline/demo/run_content_chain_demo.py`。
 5. 运行微信事件流 demo：`python 03-automation-event-pipeline/demo/run_event_pipeline_demo.py`。
 6. 查看安全边界：[publication-boundary.md](docs/security/publication-boundary.md)。
 
@@ -27,14 +27,14 @@
 
 ![B站投放巡查系统模拟看板](assets/screenshots/bilibili-inspection-dashboard.svg)
 
-![AI 内容需求研究工作台模拟截图](assets/screenshots/content-research-workbench.svg)
+![第三方内容对标改写全链路模拟截图](assets/screenshots/third-party-content-chain.svg)
 
 ## 重点可复核内容
 
 - 如何从真实运营问题里抽象目标用户、场景和痛点。
 - 如何把创意级指标、账户级配置覆盖和人工保护规则沉淀成可执行判断。
 - 如何把通知路由做成按运营人分组，同时在公开 demo 中只展示预览、不触达外部系统。
-- 如何把内容生产拆成样本准入、需求洞察、评分、brief、提示词、发布包和候选资产。
+- 如何把第三方内容拆成候选抓取、转写、样本准入、编导拆解、资产沉淀、知识库同步计划和原创改写。
 - 如何把微信消息拆成 relay、watcher、inbox、intent route、outbox/tasks/memory candidates 和 dry-run sent。
 - 如何用 synthetic 数据证明系统逻辑，而不是暴露生产数据。
 - 如何把 AI / 自动化作为业务流程的一部分，而不是只做单点工具。
@@ -46,7 +46,7 @@
 | 类型 | 内容 | 状态 |
 |---|---|---|
 | README 截图 | 模拟数据看板、规则命中、巡查报告 | 已补模拟截图 |
-| 演示视频 | 输入 synthetic 数据 -> 执行三个 demo -> 输出报告、brief、通知和 dry-run 队列 | 待录制 |
+| 演示视频 | 输入 synthetic 数据 -> 执行三个 demo -> 输出巡查报告、内容链路产物、通知和 dry-run 队列 | 待录制 |
 | Release demo 包 | 脱敏 demo zip，包含运行脚本、模拟数据、样例报告 | 已发布 |
 
 ## 安全声明
