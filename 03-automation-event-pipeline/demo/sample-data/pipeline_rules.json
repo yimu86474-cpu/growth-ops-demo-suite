@@ -1,0 +1,13 @@
+{
+  "target_chats": ["CHAT-DEMO-OPS"],
+  "bot_sender_ids": ["BOT-DEMO"],
+  "mentions": ["@bot", "帮我"],
+  "bubble": {
+    "window_seconds": 12,
+    "max_messages": 6
+  },
+  "task_keywords": ["帮我", "列步骤", "生成", "处理", "做成"],
+  "memory_keywords": ["记一下", "沉淀", "整理一下", "收工"],
+  "complex_keywords": ["长流程", "完整项目", "批量", "自动跑"],
+  "risk_keywords": ["登录平台", "真实消息", "真实发送", "发到群", "删除", "充值", "关停"]
+}

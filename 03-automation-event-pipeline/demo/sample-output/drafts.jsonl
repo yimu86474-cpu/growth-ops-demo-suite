@@ -1,0 +1,4 @@
+{"draft_id": "draft-inbox-demo-001", "inbox_id": "inbox-demo-001", "reason": "生成老师型草稿和待确认 outbox。", "route": "simple_task", "status": "draft_only", "text": "可以按三步做：先列输入和边界，再跑 synthetic demo，最后输出报告和人工确认点。"}
+{"draft_id": "draft-inbox-demo-002", "inbox_id": "inbox-demo-002", "reason": "记忆/沉淀触发，进入候选池等待人工确认。", "route": "memory_note", "status": "candidate", "text": "已整理为候选记忆：公开 demo 要保留真实流程，同时删除隐私数据。等待人工确认后再沉淀。"}
+{"draft_id": "draft-inbox-demo-003", "inbox_id": "inbox-demo-003", "reason": "涉及真实发送、登录、平台动作或隐私风险，进入人工复核任务。", "route": "risky_or_unclear", "status": "needs_review", "text": "这个请求涉及高风险动作或隐私边界，我先暂停执行，等待人工确认。"}
+{"draft_id": "draft-inbox-demo-004", "inbox_id": "inbox-demo-004", "reason": "生成简短草稿，不自动真实发送。", "route": "simple_chat", "status": "draft_only", "text": "收到，我会先按 dry-run 流程生成草稿。"}

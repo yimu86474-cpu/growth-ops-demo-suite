@@ -1,0 +1,2 @@
+{"job_id": "out-inbox-demo-001", "risk": "low", "source_inbox_id": "inbox-demo-001", "status": "pending_approval", "target": "Demo Ops Group", "text": "可以按三步做：先列输入和边界，再跑 synthetic demo，最后输出报告和人工确认点。"}
+{"job_id": "out-inbox-demo-004", "risk": "low", "source_inbox_id": "inbox-demo-004", "status": "pending_approval", "target": "Demo Ops Group", "text": "收到，我会先按 dry-run 流程生成草稿。"}

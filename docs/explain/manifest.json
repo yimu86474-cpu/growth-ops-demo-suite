@@ -15,6 +15,46 @@
         "01-bilibili-ad-inspection-demo/demo/sample-report/notification-preview.md"
       ],
       "requires_runtime_explain": false
+    },
+    {
+      "id": "run_content_research_demo",
+      "type": "script",
+      "source_files": [
+        "02-ai-content-research-workbench/demo/run_content_research_demo.py"
+      ],
+      "explain_doc": "docs/explain/run_content_research_demo.md",
+      "verify_commands": [
+        "python 02-ai-content-research-workbench/demo/run_content_research_demo.py"
+      ],
+      "runtime_outputs": [
+        "02-ai-content-research-workbench/demo/sample-report/content-research-report.md",
+        "02-ai-content-research-workbench/demo/sample-report/topic-pool.csv",
+        "02-ai-content-research-workbench/demo/sample-report/creation-brief.md",
+        "02-ai-content-research-workbench/demo/sample-report/publish-package.md"
+      ],
+      "requires_runtime_explain": false
+    },
+    {
+      "id": "run_event_pipeline_demo",
+      "type": "script",
+      "source_files": [
+        "03-automation-event-pipeline/demo/run_event_pipeline_demo.py"
+      ],
+      "explain_doc": "docs/explain/run_event_pipeline_demo.md",
+      "verify_commands": [
+        "python 03-automation-event-pipeline/demo/run_event_pipeline_demo.py"
+      ],
+      "runtime_outputs": [
+        "03-automation-event-pipeline/demo/sample-output/pipeline-report.md",
+        "03-automation-event-pipeline/demo/sample-output/messages.log.jsonl",
+        "03-automation-event-pipeline/demo/sample-output/inbox.json",
+        "03-automation-event-pipeline/demo/sample-output/drafts.jsonl",
+        "03-automation-event-pipeline/demo/sample-output/outbox-preview.jsonl",
+        "03-automation-event-pipeline/demo/sample-output/tasks.jsonl",
+        "03-automation-event-pipeline/demo/sample-output/memory-candidates.jsonl",
+        "03-automation-event-pipeline/demo/sample-output/sent-dry-run.jsonl"
+      ],
+      "requires_runtime_explain": false
     }
   ]
 }

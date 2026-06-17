@@ -1,0 +1,2 @@
+{"job_id": "out-inbox-demo-001", "mode": "dry_run", "reason": "公开 demo 只模拟 sender_stub 归档，不触达外部应用。", "sent": false}
+{"job_id": "out-inbox-demo-004", "mode": "dry_run", "reason": "公开 demo 只模拟 sender_stub 归档，不触达外部应用。", "sent": false}

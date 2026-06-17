@@ -1,0 +1,6 @@
+﻿source_id,decision,topic,pain,evidence,visual,conversion,effort,total
+DEMO-PROJECT-001,enter_script_queue,别把 AI 项目包装成概念，先把真实流程做成可复核 demo,5,5,5,5,4,4.90
+DEMO-QUESTION-002,enter_script_queue,不会写需求给 AI？先用输入、判断、输出三句话说清楚,5,4,5,4,4,4.50
+DEMO-REVIEW-003,enter_script_queue,评论区的问题不是灵感，是下一条内容的需求证据,5,4,5,4,4,4.50
+DEMO-OBS-004,candidate_only,一个素材能不能拍，先看它有没有业务场景和证据,4,3,3,5,3,3.60
+DEMO-RISK-005,reject_sensitive,,0,0,0,0,0,0.00
