@@ -1,0 +1,73 @@
+{
+  "global": {
+    "over_cost": {
+      "enabled": true,
+      "min_cost": 50,
+      "cpa_threshold": 120
+    },
+    "idle_spend": {
+      "zero_conversion": {
+        "enabled": true,
+        "min_cost": 50
+      },
+      "low_conversion_rate": {
+        "enabled": true,
+        "min_cost": 200,
+        "max_conversion_rate": 0.5
+      }
+    },
+    "low_roi": {
+      "enabled": true,
+      "min_cost": 120,
+      "roi_threshold": 1.4
+    },
+    "auto_pause": {
+      "enabled": true,
+      "creative_over_cost": {
+        "enabled": true,
+        "min_cost": 50,
+        "high_conv_min_conversions": 3,
+        "high_conv_cpa_threshold": 145,
+        "low_conv_max_conversions": 2,
+        "low_conv_cpa_threshold": 180
+      },
+      "campaign_zero_conversion": {
+        "enabled": true,
+        "min_cost": 80
+      },
+      "creative_advanced": {
+        "enabled": true,
+        "min_cost": 70,
+        "max_cpm": 30,
+        "max_comment_click_cost": 40
+      },
+      "creative_high_cost": {
+        "enabled": true,
+        "min_cost": 120,
+        "max_cpm": 60,
+        "max_comment_click_cost": 60
+      }
+    }
+  },
+  "accounts": {
+    "ACC-DEMO-002": {
+      "over_cost": {
+        "cpa_threshold": 150
+      },
+      "low_roi": {
+        "roi_threshold": 1.2
+      }
+    }
+  },
+  "notification": {
+    "mode": "preview_only",
+    "default_webhook_env": "DEMO_DINGTALK_DEFAULT_WEBHOOK",
+    "operator_webhook_envs": {
+      "Operator Demo A": "DEMO_DINGTALK_OPERATOR_A_WEBHOOK",
+      "Operator Demo B": "DEMO_DINGTALK_OPERATOR_B_WEBHOOK",
+      "Operator Demo C": "DEMO_DINGTALK_OPERATOR_C_WEBHOOK",
+      "Operator Demo D": "DEMO_DINGTALK_OPERATOR_D_WEBHOOK"
+    },
+    "dedupe_minutes": 5
+  }
+}

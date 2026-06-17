@@ -1,0 +1,9 @@
+account_id,account_name,operator,creative_id,creative_name,campaign_id,cost,cpa,conversions,clicks,roi,cpm,comment_click_cost,comment_url_clicks,cash,today_cost,yesterday_cost,skip_autopause
+ACC-DEMO-001,Account Demo A,Operator Demo A,CR-DEMO-001,Creative Demo Alpha,CAMP-DEMO-A,86,0,0,180,0,36,45,2,80,120,150,false
+ACC-DEMO-001,Account Demo A,Operator Demo A,CR-DEMO-002,Creative Demo Beta,CAMP-DEMO-A,160,160,1,260,1.1,42,52,3,80,120,150,false
+ACC-DEMO-002,Account Demo B,Operator Demo B,CR-DEMO-003,Creative Demo Gamma,CAMP-DEMO-B,260,130,2,600,1.3,28,34,8,500,240,220,false
+ACC-DEMO-002,Account Demo B,Operator Demo B,CR-DEMO-004,Creative Demo Delta,CAMP-DEMO-B,220,220,1,500,1.0,25,20,5,500,240,220,false
+ACC-DEMO-003,Account Demo C,Operator Demo C,CR-DEMO-005,Creative Demo Epsilon,CAMP-DEMO-C,210,210,1,90,0.8,70,75,2,900,100,90,false
+ACC-DEMO-004,Account Demo D,Operator Demo C,CR-DEMO-006,Creative Demo Zeta,CAMP-DEMO-D,180,190,1,130,0.9,65,70,2,700,120,110,true
+ACC-DEMO-005,Account Demo E,Operator Demo D,CR-DEMO-007,Creative Demo Eta,CAMP-DEMO-E,140,46.7,3,650,2.4,18,12,16,800,120,110,false
+ACC-DEMO-006,Account Demo F,Operator Demo D,CR-DEMO-008,Creative Demo Theta,CAMP-DEMO-F,70,35,2,400,2.0,20,10,12,60,70,95,false

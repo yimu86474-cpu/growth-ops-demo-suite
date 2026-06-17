@@ -1,0 +1,20 @@
+{
+  "units": [
+    {
+      "id": "run_inspection_demo",
+      "type": "script",
+      "source_files": [
+        "01-bilibili-ad-inspection-demo/demo/run_inspection_demo.py"
+      ],
+      "explain_doc": "docs/explain/run_inspection_demo.md",
+      "verify_commands": [
+        "python 01-bilibili-ad-inspection-demo/demo/run_inspection_demo.py"
+      ],
+      "runtime_outputs": [
+        "01-bilibili-ad-inspection-demo/demo/sample-report/inspection-report.md",
+        "01-bilibili-ad-inspection-demo/demo/sample-report/notification-preview.md"
+      ],
+      "requires_runtime_explain": false
+    }
+  ]
+}

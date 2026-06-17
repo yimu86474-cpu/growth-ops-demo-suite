@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">B站投放巡查系统模拟看板</title>
+  <desc id="desc">使用模拟数据展示风险巡查、优先级和建议动作。</desc>
+  <rect width="1200" height="720" fill="#f6f7fb"/>
+  <rect x="48" y="42" width="1104" height="88" rx="8" fill="#18202f"/>
+  <text x="82" y="94" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700">B站投放巡查系统 Demo</text>
+  <text x="860" y="94" fill="#b9c4d8" font-family="Arial, sans-serif" font-size="17">synthetic data only</text>
+
+  <rect x="48" y="158" width="248" height="120" rx="8" fill="#ffffff" stroke="#dfe4ee"/>
+  <text x="72" y="198" fill="#5c667a" font-family="Arial, sans-serif" font-size="16">巡查创意数</text>
+  <text x="72" y="246" fill="#18202f" font-family="Arial, sans-serif" font-size="42" font-weight="700">8</text>
+
+  <rect x="324" y="158" width="248" height="120" rx="8" fill="#ffffff" stroke="#dfe4ee"/>
+  <text x="348" y="198" fill="#5c667a" font-family="Arial, sans-serif" font-size="16">P0 处理候选</text>
+  <text x="348" y="246" fill="#d93025" font-family="Arial, sans-serif" font-size="42" font-weight="700">6</text>
+
+  <rect x="600" y="158" width="248" height="120" rx="8" fill="#ffffff" stroke="#dfe4ee"/>
+  <text x="624" y="198" fill="#5c667a" font-family="Arial, sans-serif" font-size="16">P1 运营告警</text>
+  <text x="624" y="246" fill="#f29900" font-family="Arial, sans-serif" font-size="42" font-weight="700">6</text>
+
+  <rect x="876" y="158" width="276" height="120" rx="8" fill="#ffffff" stroke="#dfe4ee"/>
+  <text x="900" y="198" fill="#5c667a" font-family="Arial, sans-serif" font-size="16">外部操作</text>
+  <text x="900" y="246" fill="#188038" font-family="Arial, sans-serif" font-size="34" font-weight="700">人工确认</text>
+
+  <rect x="48" y="318" width="1104" height="332" rx="8" fill="#ffffff" stroke="#dfe4ee"/>
+  <text x="78" y="362" fill="#18202f" font-family="Arial, sans-serif" font-size="22" font-weight="700">风险明细</text>
+
+  <rect x="78" y="390" width="1044" height="46" fill="#eef2f8"/>
+  <text x="98" y="419" fill="#5c667a" font-family="Arial, sans-serif" font-size="15">优先级</text>
+  <text x="214" y="419" fill="#5c667a" font-family="Arial, sans-serif" font-size="15">账户</text>
+  <text x="396" y="419" fill="#5c667a" font-family="Arial, sans-serif" font-size="15">创意</text>
+  <text x="640" y="419" fill="#5c667a" font-family="Arial, sans-serif" font-size="15">触发原因</text>
+  <text x="910" y="419" fill="#5c667a" font-family="Arial, sans-serif" font-size="15">建议动作</text>
+
+  <g font-family="Arial, sans-serif" font-size="15">
+    <rect x="78" y="436" width="1044" height="54" fill="#fff7f6"/>
+    <text x="98" y="468" fill="#d93025" font-weight="700">P0</text>
+    <text x="214" y="468" fill="#18202f">ACC-DEMO-001</text>
+    <text x="396" y="468" fill="#18202f">CR-DEMO-001</text>
+    <text x="640" y="468" fill="#18202f">ZERO_CONVERSION + dry-run</text>
+    <text x="910" y="468" fill="#18202f">人工确认</text>
+
+    <rect x="78" y="490" width="1044" height="54" fill="#fffaf0"/>
+    <text x="98" y="522" fill="#f29900" font-weight="700">P1</text>
+    <text x="214" y="522" fill="#18202f">ACC-DEMO-003</text>
+    <text x="396" y="522" fill="#18202f">CR-DEMO-005</text>
+    <text x="640" y="522" fill="#18202f">OVER_COST + HIGH_COST</text>
+    <text x="910" y="522" fill="#18202f">通知运营人</text>
+
+    <rect x="78" y="544" width="1044" height="54" fill="#fffaf0"/>
+    <text x="98" y="576" fill="#f29900" font-weight="700">P1</text>
+    <text x="214" y="576" fill="#18202f">ACC-DEMO-004</text>
+    <text x="396" y="576" fill="#18202f">CR-DEMO-006</text>
+    <text x="640" y="576" fill="#18202f">skip_autopause=true</text>
+    <text x="910" y="576" fill="#18202f">只告警不关停</text>
+  </g>
+
+  <text x="78" y="626" fill="#7a8496" font-family="Arial, sans-serif" font-size="14">公开演示截图：所有账户、创意、运营人和指标均为 synthetic 数据。</text>
+</svg>
